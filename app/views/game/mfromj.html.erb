@@ -14,6 +14,8 @@
         overflow-x: hidden;
         background-image: url("http://www.redvanilla.com/images/EW3402%20(3).JPG");
         background-size: cover;
+        width: 1280px;
+        height: 780px;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right bottom;
@@ -22,13 +24,11 @@
     
     .headfont{
         font-family: 'Iropke Batang', serif;
-        font-size: 20px;
+        font-size: 100%;
         font: bold;
         color: rgb(255,255,255);
         vertical-align: middle;
         text-align: center;
-        line-height: 35px;
-        margin: 20px auto;
         z-index: 3;
     }
     
@@ -41,63 +41,53 @@
         line-height: 25px;
         margin-top: 15px;
         margin-bottom: 30px;
-        margin-left: 32.3%;
     }
     .box1{
         background-color: rgba(220,165,92,0.6);
         border: 4px solid #fff;
-        width: 60%;
+        width: 330px;
         text-align: center;
-        line-height: 35px;
+        line-height: 200%;
         padding: 20px;
-        margin: 78px auto;
+        margin:75px;
         z-index: 1;
     }
     
     .box2{
         background-color: rgba(255,255,255,0.94);
         border-radius: 30px;
-        width: 40%;
+        width: 550px;
         text-align: center;
         line-height: 25px;
         padding: 15px;
         margin-top: 15px;
-        margin-left:30%;
         z-index: 1;
     }
     
-
-      
-    .index_textbox{
-        position: relative;
-        height: 100%;
-        width: 100%;
-        transform-style: inherit;
-        z-index: 2;
-    }
     
     #store_image{
         background-image:url("<%= @maeul_image %>");
         background-size: cover;
         border-radius: 60px;
-        margin-top: 3%;
-        margin-left: 29.5%;
         padding-top: 50px;
+        margin-top: 70px;
         width: 550px;
         height: 380px;
     }
-
+    
     </style>
     
 </head>
 
 <body>
     
-    <div id="index">
+    <center>
     <div id="store_image">
         <div class="headfont box1">마을에 오신 걸 환영해요!</br>그럼, <%= @maeul_store %>! 어떠세요!</div>
     </div>
     <div class="explain box2">제 몫까지 꼭꼭 씹어서 맛있게드세요!</br>식사 맛있게 하시고 오늘 하루도 기운차게 보내세요!</br>경희대학교 멋쟁이 사자처럼에서 당신을 응원합니다!</div>
+    
+    </center>
     
     <center><a href='#'><button type="button" class="btn btn-outline-warning btn-lg" style="margin: -13% 0.5%">네, 당신은 답정너입니다.</button></a>
     <a href='/game/jeongmun_no_dap/'><button type="button" class="btn btn-outline-warning btn-lg" style="margin:-13% 0.5%">..다시 정문으로 가시려구요?</button></a></center>
