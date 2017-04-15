@@ -1,0 +1,165 @@
+
+
+Started GET "/" for 58.232.182.57 at 2017-04-15 16:40:37 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#index as HTML
+  Rendered game/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 557ms (Views: 548.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 58.232.182.57 at 2017-04-15 16:40:38 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 58.232.182.57 at 2017-04-15 16:40:38 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/game.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 58.232.182.57 at 2017-04-15 16:40:38 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/game.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 58.232.182.57 at 2017-04-15 16:40:39 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 58.232.182.57 at 2017-04-15 16:40:39 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 58.232.182.57 at 2017-04-15 16:40:39 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 58.232.182.57 at 2017-04-15 16:40:39 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 58.232.182.57 at 2017-04-15 16:40:46 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#index as HTML
+  Rendered game/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/where" for 58.232.182.57 at 2017-04-15 16:40:48 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#distance as HTML
+  Rendered game/distance.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/jeongmun_whats_ur_name" for 58.232.182.57 at 2017-04-15 16:40:49 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#jeongmunone as HTML
+  Rendered game/jeongmunone.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/jeongmun_this_is_ur_lunch?l_yname=%EC%9C%A0%EC%9E%AC%EA%B2%BD" for 58.232.182.57 at 2017-04-15 16:40:53 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#jeongmuntwo as HTML
+  Parameters: {"l_yname"=>"유재경"}
+  Rendered game/jeongmuntwo.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/jeongmun_this_is_ur_lunch?l_yname=%EC%9C%A0%EC%9E%AC%EA%B2%BD" for 58.232.182.57 at 2017-04-15 16:40:55 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#jeongmuntwo as HTML
+  Parameters: {"l_yname"=>"유재경"}
+  Rendered game/jeongmuntwo.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/maeul_this_is_my_best/" for 58.232.182.57 at 2017-04-15 16:40:56 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#mfromj as HTML
+  Rendered game/mfromj.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/maeul_this_is_my_best/" for 58.232.182.57 at 2017-04-15 16:40:58 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#mfromj as HTML
+  Rendered game/mfromj.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/jeongmun_no_dap/" for 58.232.182.57 at 2017-04-15 16:40:59 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#jfrommfromj as HTML
+  Rendered game/jfrommfromj.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/jeongmun_no_dap/" for 58.232.182.57 at 2017-04-15 16:41:02 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#jfrommfromj as HTML
+  Rendered game/jfrommfromj.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/index" for 58.232.182.57 at 2017-04-15 16:41:03 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#index as HTML
+  Rendered game/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/where" for 58.232.182.57 at 2017-04-15 16:41:04 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#distance as HTML
+  Rendered game/distance.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/maeul_whats_ur_name" for 58.232.182.57 at 2017-04-15 16:41:06 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#maeulone as HTML
+  Rendered game/maeulone.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/maeul_this_is_ur_lunch?l_yname=%EC%9C%A0%EC%9E%AC%EA%B2%BD" for 58.232.182.57 at 2017-04-15 16:41:09 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#maeultwo as HTML
+  Parameters: {"l_yname"=>"유재경"}
+  Rendered game/maeultwo.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/maeul_this_is_ur_lunch?l_yname=%EC%9C%A0%EC%9E%AC%EA%B2%BD" for 58.232.182.57 at 2017-04-15 16:41:12 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#maeultwo as HTML
+  Parameters: {"l_yname"=>"유재경"}
+  Rendered game/maeultwo.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/jeongmun_this_is_my_best/" for 58.232.182.57 at 2017-04-15 16:41:13 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#jfromm as HTML
+  Rendered game/jfromm.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/jeongmun_this_is_my_best/" for 58.232.182.57 at 2017-04-15 16:41:18 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#jfromm as HTML
+  Rendered game/jfromm.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/maeul_no_dap/" for 58.232.182.57 at 2017-04-15 16:41:19 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#mfromjfromm as HTML
+  Rendered game/mfromjfromm.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/index" for 58.232.182.57 at 2017-04-15 16:41:21 +0000
+Cannot render console from 58.232.182.57! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by GameController#index as HTML
+  Rendered game/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
